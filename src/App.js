@@ -3,8 +3,8 @@ import './App.scss';
 import {Routes , Route} from 'react-router-dom'
 import Layout from './component/Layout';
 import Home from './component/Home/Home';
-import About from './component/About/About'
-
+import Work from './component/Work/mywork';
+import Contact from './component/Contact/Contact'
 
 function App() {
   return (
@@ -12,7 +12,8 @@ function App() {
      <Routes>
         <Route path='/' element={<Layout/>}>
           <Route index element={<Home/>}/>
-          <Route path='about' element={<About/>}/>
+          <Route path='work' element={<Work/>}/>
+          <Route path='contact' element={<Contact/>}/>
         </Route>
         
      </Routes> 
