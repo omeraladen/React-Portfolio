@@ -1,0 +1,8 @@
+{
+    "portfolio":{
+        "cover": "/portfolio/1/one.png",
+        "title": "Amazon-Clone",
+        "description":"React , Next.js , TailwindCss , Stripe",
+        "url":"https://google.com"
+    }
+}
