@@ -1,0 +1,115 @@
+.nav-bar {
+  background-color: #181818;
+  width: 60px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 3;
+  min-height: 500px;
+}
+
+.nav-bar .logo {
+  display: block;
+  padding: 8px 0;
+}
+
+.nav-bar .logo img {
+  display: block;
+  margin: 8px auto;
+  width: 34px;
+  height: auto;
+}
+
+.nav-bar .logo img.sub-logo {
+  width: 50px;
+}
+
+.nav-bar nav {
+  position: absolute;
+  top: 50%;
+  display: block;
+  text-align: center;
+  height: 210px;
+  margin-top: 120px;
+  width: 100%;
+}
+
+.nav-bar nav a {
+  position: relative;
+  line-height: 51px;
+  font-size: 22px;
+  display: block;
+  text-decoration: none;
+  height: 51px;
+  color: #4d4d4e;
+}
+
+.nav-bar nav a i {
+  transition: all .3s ease-out;
+}
+
+.nav-bar nav a:hover {
+  color: #ffd700;
+}
+
+.nav-bar nav a:hover svg {
+  opacity: 0;
+}
+
+.nav-bar nav a:hover:after {
+  opacity: 1;
+}
+
+.nav-bar nav a:after {
+  content: '';
+  font-size: 10px;
+  letter-spacing: 2px;
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  transition: all .3s ease-out;
+  overflow: hidden;
+}
+
+.nav-bar nav a:first-child::after {
+  content: 'Home';
+}
+
+.nav-bar nav a.Work-link:after {
+  content: 'My Work';
+}
+
+.nav-bar nav a.contact-link:after {
+  content: 'CONTACT';
+}
+
+.nav-bar nav a.active svg {
+  color: #ffd700;
+}
+
+.nav-bar ul {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  display: block;
+  padding: 0;
+  text-align: center;
+  margin: 0;
+  list-style: none;
+}
+
+.nav-bar ul li a {
+  padding: 7px 0;
+  display: block;
+  font-size: 15px;
+  line-height: 16px;
+}
+
+.nav-bar ul li a:hover svg {
+  color: #ffd700;
+  transition: all .3s ease-out;
+}
+/*# sourceMappingURL=sidebar.css.map */

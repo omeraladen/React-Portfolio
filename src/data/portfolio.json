@@ -1,8 +1,51 @@
 {
-    "portfolio":{
-        "cover": "/portfolio/1/one.png",
-        "title": "Amazon-Clone",
-        "description":"React , Next.js , TailwindCss , Stripe",
-        "url":"https://google.com"
-    }
+    "portfolio": [
+        {
+            "cover": "/portfolio/1/1.2.png",
+            "title": "Photograph",
+            "description":"React , Next.js , TailwindCss , Stripe",
+            "url":"https://google.com"
+        },{
+            "cover": "/portfolio/2/2.1.png",
+            "title": "Amazon-Clone",
+            "description":"React , Next.js , TailwindCss , Stripe",
+            "url":"https://google.com"
+        },{
+            "cover": "/portfolio/2/2.1.png",
+            "title": "Amazon-Clone",
+            "description":"React , Next.js , TailwindCss , Stripe",
+            "url":"https://google.com"
+        },{
+            "cover": "/portfolio/2/2.1.png",
+            "title": "Amazon-Clone",
+            "description":"React , Next.js , TailwindCss , Stripe",
+            "url":"https://google.com"
+        },{
+            "cover": "/portfolio/2/2.1.png",
+            "title": "Amazon-Clone",
+            "description":"React , Next.js , TailwindCss , Stripe",
+            "url":"https://google.com"
+        },{
+            "cover": "/portfolio/2/2.1.png",
+            "title": "Amazon-Clone",
+            "description":"React , Next.js , TailwindCss , Stripe",
+            "url":"https://google.com"
+        },{
+            "cover": "/portfolio/2/2.1.png",
+            "title": "Amazon-Clone",
+            "description":"React , Next.js , TailwindCss , Stripe",
+            "url":"https://google.com"
+        },{
+            "cover": "/portfolio/2/2.1.png",
+            "title": "Amazon-Clone",
+            "description":"React , Next.js , TailwindCss , Stripe",
+            "url":"https://google.com"
+        },{
+            "cover": "/portfolio/2/2.1.png",
+            "title": "Amazon-Clone",
+            "description":"React , Next.js , TailwindCss , Stripe",
+            "url":"https://google.com"
+        }
+    ]
 }
+
